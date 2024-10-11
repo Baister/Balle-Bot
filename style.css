@@ -34,3 +34,52 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
+
+.conteudo {
+    border-top: 0.4px solid #fff2e7; /*É para deixar aquela linha no topo da página que separa a navegação.*/
+    margin-bottom: 48px;
+}
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    border: none; /*Pra tirar a configuração prédefinida da borda*/
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: "Sarala", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #2f2325;
+}
+
+.conteudo-principal-imagem {
+    height: 430px; /*É para deixar fixo a altura*/
+}
