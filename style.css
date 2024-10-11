@@ -20,5 +20,17 @@ body {
 }
 
 .cabecalho-imagem {
-    height: 72px;
+    height: 72px; /*Width se ajusta sozinho*/
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    color: #fff2e7;
+    font-family: "Sarala", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }
