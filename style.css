@@ -83,3 +83,41 @@ body {
 .conteudo-principal-imagem {
     height: 430px; /*É para deixar fixo a altura*/
 }
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    margin-top: 48px; /*Para desgrudar da robozinha*/
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #fff2e7; /*É para deixar aquela linha no topo da página igual a que separa a navegação.*/
+    padding-top: 48px;
+
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    color: #fff2e7;
+    font-weight: 400;
+    margin-bottom: 16px; /*É só para fazer uma pequena distância com os parágrafos*/
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    color:  #ECD6C4;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.rodape {
+    border-top: 0.4px solid #fff2e7; /*É para deixar aquela linha no topo da página igual a que separa a navegação.*/
+    padding: 32px;
+}
+
+.rodape-imagem {
+    height: 48px; /*Para diminuir um pouco*/
+    display: block; /*Deixando em block para que a imagem ocupe o espaço inteiro.*/
+    margin: 0 auto; /*Fazendo com que a própria margem centralize*/
+}
